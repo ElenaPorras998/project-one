@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    max-width: 2000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items:flex-start;
+
+}
+.data{
+    margin-left: 5em;
+} 
+
+.profile {
+    width: 5em;
+    height: 6em;
+}
+
+.poster{
+    margin-left: 5em;
+    max-width: 50%;
+    width: 10em;
+}
+
+section#plot {
+    margin-left: 5em;
+    max-width: 80%;
+    text-align: justify;
+}
+
+div#releases {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+section#dir {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5em;
+    max-width: 80%;
+    margin-top: 3em;
+}
+
+div#cast {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    overflow-x: scroll;
+}
+
+div.char {
+    margin-right: 2em;
+}
+
+div.review {
+    max-width: 80%;
+    text-align: justify;
+}
