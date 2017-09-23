@@ -11,8 +11,8 @@ h2 {
     font-family: 'Roboto Slab', serif;
 }
 
-div#info{
-    line-height: 0.4em;
+div.info{
+    margin-left: 1em;
 }
 
 /* Starts code for the star rating  */
@@ -21,15 +21,40 @@ div#info{
 }
 
 button{
-  height: 1.5em;
+  height: 3.5em;
+  width: 100%;
 }
 
-div#rating{
+div.rating{
     color: white;
 }
 
-p#phrase{
-    color: #a9bbbd;
+p.phrase{
+    color: #6c757d;
     font-style: italic;
-    font-size: 3em;
+    font-size: 1.5em;
+}
+
+div#side{
+    background-color: #e1eff2;
+}
+
+div#main{
+    border-right: 1px solid #6c757d;
+}
+
+div#releases{
+    border-bottom: 1px solid #6c757d;    
+}
+
+.reviews{
+    background-color: #17abcd;
+    color: white;
+}
+
+#cast{
+    background-image: url(../img/milky-way.jpg);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto Slab', serif;   
 }
