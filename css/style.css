@@ -1,0 +1,35 @@
+h1 {
+    background-image: url(../img/milky-way.jpg);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    height: 5em;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+div#info{
+    line-height: 0.4em;
+}
+
+/* Starts code for the star rating  */
+.m_pro{
+  width: 10em;
+}
+
+button{
+  height: 1.5em;
+}
+
+div#rating{
+    color: white;
+}
+
+p#phrase{
+    color: #a9bbbd;
+    font-style: italic;
+    font-size: 3em;
+}

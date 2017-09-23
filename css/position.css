@@ -9,13 +9,38 @@ html {
 
 h1 {
     text-align: center;
+    margin: -1em;
+    padding-top: 2.5em;
 }
 
 .row{
     display: flex;
     align-items:flex-start;
-
+    justify-content: space-between;
+    margin-right: 5em;
 }
+
+div#intton{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p#phrase{
+    text-align: center;
+}
+
+div#info{
+    margin-top: 5em;
+    margin-left: 2em;  
+    display: flex;  
+}
+
+/* div#rating{
+    
+} */
+
 .data{
     margin-left: 5em;
 } 
@@ -27,8 +52,9 @@ h1 {
 
 .poster{
     margin-left: 5em;
+    margin-top: -5em;
     max-width: 50%;
-    width: 10em;
+    width: 15em;
 }
 
 section#plot {
@@ -65,4 +91,8 @@ div.char {
 div.review {
     max-width: 80%;
     text-align: justify;
+}
+
+section#awards{
+    margin: 5em;
 }

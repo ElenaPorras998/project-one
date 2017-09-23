@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Interstellar</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!-- Link for headline fonts-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!--Link for the bootstrap elements-->
+    <link rel="stylesheet" href="css/position.css">
+    <!-- link for the stylesheet that positions the elements -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link for the stylesheet that gives style to the elements -->
 </head>
 
 <body>
@@ -15,19 +23,27 @@
 
     <section class="row">
         <img class="poster" src="img/poster.jpg" alt="Interstellar movie poster">
-        <div class="data">
-            <h2> Data </h2>
-            <ul>
-                <li> Year:2014</li>
-                <li> Rating: 8.6/10</li>
-                <li> Type: Feature</li>
-                <li> Status: Finished</li>
-                <li> Length: 169 min</li>
-                <li> Metascore: 74</li>
-                <li> Genre: Adventure, Drama, Sci-Fi</li>
-                <li> <a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1"> IMDB </a></li>
+        <div id="intton">
+            <p id="phase">"An Emotional, Beautiful Journey into the Unknown"</p>
+            <div id='info'>
+                <p> Year:<br>2014</p>
+                <p> Type:<br> Feature</p>
+                <p> Status:<br> Finished</p>
+                <p> Length:<br> 169 min</p>
+                <p> Metascore:<br> 74</p>
+                <p> Genre:<br> Adventure, Drama, Sci-Fi</p>
+            </div>
+            <p><a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1"><button> IMDB </button></a></p>
+        </div>
+        <div id="rating">
+            <h4> Rating </h4>
+            <div class="progress m_pro">
+                <!--bootstrap element-->
+                <div class="progress-bar" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
         </div>
     </section>
+
 
     <section id="plot">
         <div>
@@ -90,8 +106,8 @@
     </section>
 
     <section class="data">
-    <h2>Cast</h2>
-    <div id="cast">
+        <h2>Cast</h2>
+        <div id="cast">
             <div class="char"> <img class="profile" src="img/ellen.jpg" alt="actor picture"> Ellen Burstyn</div>
             <div class="char"> <img class="profile" src="img/matt.jpg" alt="actor picture"> Matthew McConaughey</div>
             <div class="char"> <img class="profile" src="img/mac.jpg" alt="actor picture"> Mackenzie Foy</div>
@@ -120,6 +136,181 @@
             <div class="char"> <img class="profile" src="img/len.jpg" alt="actor picture"> Lena Georgas</div>
         </div>
     </section>
+
+    <section id="awards">
+        <h2> Some awards and nominations </h2>
+        <h3> Academy Awards USA </h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Best Special Visual Effects</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Achievement in Music Written for Motion Pictures, Original Score</li>
+                <li>Best Achievement in Sound Mixing</li>
+                <li>Best Achievement in Sound Editing</li>
+                <li>Best Achievement in Production Design</li>
+            </ul>
+        </div>
+        <h3> Golden Globes, USA</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Original Score - Motion Picture</li>
+            </ul>
+        </div>
+        <h3> BAFTA Awards </h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Best Special Visual Effects</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Cinematography</li>
+                <li>Best Original Music</li>
+                <li>Best Production Design</li>
+            </ul>
+        </div>
+        <h3> Academy of Science Fiction, Fantasy & Horror Films, USA</h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Best Science Fiction Film</li>
+                <li>Best Production Design</li>
+                <li>Best Special Effects</li>
+                <li>Best Performance by a Younger Actor</li>
+                <li>Best Writing</li>
+                <li>Best Music</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Supporting Actress</li>
+                <li>Best Actress</li>
+                <li>Best Actor</li>
+                <li>Best Director</li>
+                <li>Best Editing</li>
+            </ul>
+        </div>
+        <h3> AFI Awards, USA </h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Movie of the Year</li>
+            </ul>
+        </div>
+        <h3>Alliance of Women Film Journalists</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Cinematography</li>
+            </ul>
+        </div>
+        <h3>Amanda Awards, Norway</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Foreign Feature Film (Årets utenlandske spillefilm)</li>
+            </ul>
+        </div>
+        <h3>Art Directors Guild</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Fantasy Film</li>
+            </ul>
+        </div>
+        <h3>ASCAP Film and Television Music Awards</h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Top Box Office Films</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Film Score</li>
+            </ul>
+        </div>
+        <h3>Awards Circuit Community Awards</h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Best Visual Effects</li>
+                <li>Best Original Score</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Motion Picture</li>
+                <li>Best Original Screenplay</li>
+            </ul>
+        </div>
+        <h3>Awards of the Japanese Academy</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Foreign Film</li>
+            </ul>
+        </div>
+        <h3>Black Reel Awards</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Outstanding Breakthrough Performance, Male</li>
+            </ul>
+        </div>
+        <h3>Broadcast Film Critics Association Awards</h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Best Sci-Fi/Horror Movie</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Young Actor/Actress</li>
+                <li>Best Cinematography</li>
+                <li>Best Art Direction</li>
+                <li>Best Editing</li>
+                <li>Best Visual Effects</li>
+                <li>Best Score</li>
+            </ul>
+        </div>
+        <h3>California on Location Awards</h3>
+        <div class="won">
+            <h4> Won </h4>
+            <ul>
+                <li>Assistant Location Manager of the Year - Feature</li>
+            </ul>
+        </div>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Location Professional of the Year - Studio Feature Film</li>
+            </ul>
+        </div>
+        <h3>Central Ohio Film Critics Association</h3>
+        <div class="nominated">
+            <h4> Nominated </h4>
+            <ul>
+                <li>Best Score</li>
+                <li>Best Cinematography</li>
+                <li>Actor of the year</li>
+            </ul>
+        </div>
+    </section>
+
 
     <section class="data">
         <h2>Reviews</h2>
