@@ -13,6 +13,7 @@ h2 {
 
 div.info{
     margin-left: 1em;
+    margin-top: 2em;
 }
 
 /* Starts code for the star rating  */
@@ -35,21 +36,8 @@ p.phrase{
     font-size: 1.5em;
 }
 
-div#side{
+.awards{
     background-color: #e1eff2;
-}
-
-div#main{
-    border-right: 1px solid #6c757d;
-}
-
-div#releases{
-    border-bottom: 1px solid #6c757d;    
-}
-
-.reviews{
-    background-color: #17abcd;
-    color: white;
 }
 
 #cast{
@@ -57,4 +45,23 @@ div#releases{
     background-attachment: fixed;
     color: white;
     font-family: 'Roboto Slab', serif;   
+    width: 115%;    
+}
+
+div#main{
+    border-right: 1px solid #6c757d;
+}
+
+.releases{
+    background-color: #f7e495;    
+}
+
+.reviews{
+    background-color: #17abcd;
+    color: white;
+    margin-top: 1em;    
+    text-align: justify;
+    width: 115%;
+    padding-right: 1em;
+    padding-left: 1em;    
 }

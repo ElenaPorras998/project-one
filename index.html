@@ -20,53 +20,51 @@
 <body>
 
     <h1>Interstellar</h1>
+    <div class="rating">
+        <h5> Rating </h5>
+        <div class="progress m_pro">
+            <!--bootstrap element-->
+            <div class="progress-bar" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
 
-    <section class="container">
-        <div class="row">
-            <img class="img-fluid poster col-3" src="img/poster.jpg" alt="Interstellar movie poster">
-            <div class="col-8">
-                <div class="row">
-                    <p class="phrase col-12">"An Emotional, Beautiful Journey into the Unknown"</p>
-                    <div class='info row'>
-                        <p class="col-2 btn btn-secondary"> <strong> Year</strong> <br>2014</p>
-                        <p class="col-2 btn btn-secondary"> <strong> Type</strong> <br> Feature</p>
-                        <p class="col-2 btn btn-secondary"> <strong> Status</strong><br> Finished</p>
-                        <p class="col-2 btn btn-secondary"> <strong> Length</strong><br> 169 min</p>
-                        <p class="col-3 btn btn-secondary"> <strong> Metascore</strong><br> 74</p>
-                        <p class="col-7 btn btn-secondary"> <strong> Genre<br> </strong>Adventure, Drama, Sci-Fi</p>
-                        <p class="col-5"><a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1"><button class="btn btn-primary"> IMDB </button></a></p>
+    <section id="first">
+            <img class="img-fluid poster" src="img/poster.jpg" alt="Interstellar movie poster">
+            <div>
+                <div class="info">
+                    <p class="phrase">"An Emotional, Beautiful Journey into the Unknown"</p>
+                        <div class="row">
+                            <p class="col-4 col-m-3"> <strong> Year</strong> <br>2014</p>
+                            <p class="col-4 col-m-3"> <strong> Type</strong> <br> Feature</p>
+                            <p class="col-4 col-m-3"> <strong> Status</strong><br> Finished</p>
+                            <p class="col-6 col-m-3"> <strong> Length</strong><br> 169 min</p>
+                            <p class="col-6 col-m-4"> <strong> Metascore</strong><br> 74</p>
+                            <p class="col-7 col-m-4"> <strong> Genre<br> </strong>Adventure, Drama, Sci-Fi</p>
+                            <p class="col-5 col-m-4"><a href="http://www.imdb.com/title/tt0816692/?ref_=nv_sr_1"><button class="btn btn-primary"> IMDB </button></a></p>
                     </div>
                 </div>
             </div>
-            <div class="rating col-1">
-                <h5> Rating </h5>
-                <div class="progress m_pro">
-                    <!--bootstrap element-->
-                    <div class="progress-bar" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
     </section>
 
-    <section id="middle" class="container">
-        <div class="row">
-            <div id="main" class="col-9">
-                <div>
+    <section>
+        <div class="middle">
+            <div class="main">
+                <div class="plot">
                     <h2>Plot</h2>
                     <p>Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure
                         mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar
                         system allows a team of astronauts to go where no man has gone before, a planet that may have the
                         right environment to sustain human life.
                     </p>
+                    <iframe class="video" src="https://www.youtube.com/embed/watch?v=3WzHXI5HizQ"></iframe>
                 </div>
-                <iframe width="650" height="400" src="https://www.youtube.com/embed/watch?v=3WzHXI5HizQ"></iframe>
 
-                <div class="row dir">
-                    <div class="col">
+                <div class="dir">
+                    <div>
                         <h2>Director</h2>
                         <p>Christopher Nolan</p>
                     </div>
-                    <div class="col">
+                    <div>
                         <h2>Writers</h2>
                         <ul>
                             <li>Jonathan Nolan </li>
@@ -76,8 +74,8 @@
                 </div>
             </div>
 
-            <div id="side" class="col-3">
-                <div id="releases">
+            <div class="side">
+                <div class="releases">
                     <h3>Releases</h3>
                     <div>
                         <p> USA </p>
@@ -103,16 +101,16 @@
                     </div>
                 </div>
 
-                <div id="awards">
+                <div class="awards">
                     <h3> Some awards and nominations </h3>
                     <h4> Academy Awards USA </h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Best Special Visual Effects</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Achievement in Music Written for Motion Pictures, Original Score</li>
@@ -122,20 +120,20 @@
                         </ul>
                     </div>
                     <h4> Golden Globes, USA</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Original Score - Motion Picture</li>
                         </ul>
                     </div>
                     <h4> BAFTA Awards </h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Best Special Visual Effects</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Cinematography</li>
@@ -143,8 +141,8 @@
                             <li>Best Production Design</li>
                         </ul>
                     </div>
-                    <h4> Academy of Science Fiction, Fantasy & Horror Films, USA</h4>
-                    <div class="won">
+                    <h4> Academy of Science Fiction, Fantasy and Horror Films, USA</h4>
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Best Science Fiction Film</li>
@@ -155,7 +153,7 @@
                             <li>Best Music</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Supporting Actress</li>
@@ -166,55 +164,55 @@
                         </ul>
                     </div>
                     <h4> AFI Awards, USA </h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Movie of the Year</li>
                         </ul>
                     </div>
                     <h4>Alliance of Women Film Journalists</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Cinematography</li>
                         </ul>
                     </div>
                     <h4>Amanda Awards, Norway</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Foreign Feature Film (Årets utenlandske spillefilm)</li>
                         </ul>
                     </div>
                     <h4>Art Directors Guild</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Fantasy Film</li>
                         </ul>
                     </div>
                     <h4>ASCAP Film and Television Music Awards</h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Top Box Office Films</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Film Score</li>
                         </ul>
                     </div>
                     <h4>Awards Circuit Community Awards</h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Best Visual Effects</li>
                             <li>Best Original Score</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Motion Picture</li>
@@ -222,27 +220,27 @@
                         </ul>
                     </div>
                     <h4>Awards of the Japanese Academy</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Foreign Film</li>
                         </ul>
                     </div>
                     <h4>Black Reel Awards</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Outstanding Breakthrough Performance, Male</li>
                         </ul>
                     </div>
                     <h4>Broadcast Film Critics Association Awards</h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Best Sci-Fi/Horror Movie</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Young Actor/Actress</li>
@@ -254,20 +252,20 @@
                         </ul>
                     </div>
                     <h4>California on Location Awards</h4>
-                    <div class="won">
+                    <div>
                         <h5> Won </h5>
                         <ul>
                             <li>Assistant Location Manager of the Year - Feature</li>
                         </ul>
                     </div>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Location Professional of the Year - Studio Feature Film</li>
                         </ul>
                     </div>
                     <h4>Central Ohio Film Critics Association</h4>
-                    <div class="nominated">
+                    <div>
                         <h5> Nominated </h5>
                         <ul>
                             <li>Best Score</li>
@@ -280,42 +278,42 @@
         </div>
     </section>
 
-    <section class="data cast">
+    <section class="cast">
         <h2>Cast</h2>
         <div id="cast">
-            <div class="char"> <img class="profile" src="img/ellen.jpg" alt="actor picture"> Ellen Burstyn</div>
-            <div class="char"> <img class="profile" src="img/matt.jpg" alt="actor picture"> Matthew McConaughey</div>
-            <div class="char"> <img class="profile" src="img/mac.jpg" alt="actor picture"> Mackenzie Foy</div>
-            <div class="char"> <img class="profile" src="img/john.jpg" alt="actor picture"> John Lithgow</div>
-            <div class="char"> <img class="profile" src="img/tim.jpg" alt="actor picture"> Timothée Chalamet</div>
-            <div class="char"> <img class="profile" src="img/david.jpg" alt="actor picture"> David Oyelowo</div>
-            <div class="char"> <img class="profile" src="img/coll.jpg" alt="actor picture"> Collette Wolfe</div>
-            <div class="char"> <img class="profile" src="img/fran.jpg" alt="actor picture"> Francis X. McCarthy</div>
-            <div class="char"> <img class="profile" src="img/bill.jpg" alt="actor picture">Bill Irwin</div>
-            <div class="char"> <img class="profile" src="img/anne.jpg" alt="actor picture"> Anne Hathaway</div>
-            <div class="char"> <img class="profile" src="img/and.jpg" alt="actor picture"> Andrew Borba</div>
-            <div class="char"> <img class="profile" src="img/wes.jpg" alt="actor picture"> Wes Bentley</div>
-            <div class="char"> <img class="profile" src="img/will.jpg" alt="actor picture"> William Devane</div>
-            <div class="char"> <img class="profile" src="img/mic.jpg" alt="actor picture"> Michael Caine</div>
-            <div class="char"> <img class="profile" src="img/gya.jpg" alt="actor picture"> David Gyasi</div>
-            <div class="char"> <img class="profile" src="img/josh.jpg" alt="actor picture"> Josh Stewart</div>
-            <div class="char"> <img class="profile" src="img/cas.jpg" alt="actor picture"> Casey Affleck</div>
-            <div class="char"> <img class="profile" src="img/lea.jpg" alt="actor picture"> Leah Cairns</div>
-            <div class="char"> <img class="profile" src="img/jes.jpg" alt="actor picture"> Jessica Chastain</div>
-            <div class="char"> <img class="profile" src="img/wil.jpg" alt="actor picture"> William Dickinson</div>
-            <div class="char"> <img class="profile" src="img/top.jpg" alt="actor picture"> Topher Grace</div>
-            <div class="char"> <img class="profile" src="img/mat.jpg" alt="actor picture"> Matt Damon</div>
-            <div class="char"> <img class="profile" src="img/flo.jpg" alt="actor picture"> Flora Nolan</div>
-            <div class="char"> <img class="profile" src="img/gri.jpg" alt="actor picture"> Griffen Fraser</div>
-            <div class="char"> <img class="profile" src="img/jef.jpg" alt="actor picture"> Jeff Hephner</div>
-            <div class="char"> <img class="profile" src="img/len.jpg" alt="actor picture"> Lena Georgas</div>
+            <div class="profile"> <img src="img/ellen.jpg" alt="actor picture"> Ellen Burstyn</div>
+            <div class="profile"> <img src="img/matt.jpg" alt="actor picture"> Matthew McConaughey</div>
+            <div class="profile"> <img src="img/mac.jpg" alt="actor picture"> Mackenzie Foy</div>
+            <div class="profile"> <img src="img/john.jpg" alt="actor picture"> John Lithgow</div>
+            <div class="profile"> <img src="img/tim.jpg" alt="actor picture"> Timothée Chalamet</div>
+            <div class="profile"> <img src="img/david.jpg" alt="actor picture"> David Oyelowo</div>
+            <div class="profile"> <img src="img/coll.jpg" alt="actor picture"> Collette Wolfe</div>
+            <div class="profile"> <img src="img/fran.jpg" alt="actor picture"> Francis X. McCarthy</div>
+            <div class="profile"> <img src="img/bill.jpg" alt="actor picture">Bill Irwin</div>
+            <div class="profile"> <img src="img/anne.jpg" alt="actor picture"> Anne Hathaway</div>
+            <div class="profile"> <img src="img/and.jpg" alt="actor picture"> Andrew Borba</div>
+            <div class="profile"> <img src="img/wes.jpg" alt="actor picture"> Wes Bentley</div>
+            <div class="profile"> <img src="img/will.jpg" alt="actor picture"> William Devane</div>
+            <div class="profile"> <img src="img/mic.jpg" alt="actor picture"> Michael Caine</div>
+            <div class="profile"> <img src="img/gya.jpg" alt="actor picture"> David Gyasi</div>
+            <div class="profile"> <img src="img/josh.jpg" alt="actor picture"> Josh Stewart</div>
+            <div class="profile"> <img src="img/cas.jpg" alt="actor picture"> Casey Affleck</div>
+            <div class="profile"> <img src="img/lea.jpg" alt="actor picture"> Leah Cairns</div>
+            <div class="profile"> <img src="img/jes.jpg" alt="actor picture"> Jessica Chastain</div>
+            <div class="profile"> <img src="img/wil.jpg" alt="actor picture"> William Dickinson</div>
+            <div class="profile"> <img src="img/top.jpg" alt="actor picture"> Topher Grace</div>
+            <div class="profile"> <img src="img/mat.jpg" alt="actor picture"> Matt Damon</div>
+            <div class="profile"> <img src="img/flo.jpg" alt="actor picture"> Flora Nolan</div>
+            <div class="profile"> <img src="img/gri.jpg" alt="actor picture"> Griffen Fraser</div>
+            <div class="profile"> <img src="img/jef.jpg" alt="actor picture"> Jeff Hephner</div>
+            <div class="profile"> <img src="img/len.jpg" alt="actor picture"> Lena Georgas</div>
         </div>
     </section>
 
 
     <section class="reviews">
         <h2>Reviews</h2>
-        <div class="review">
+        <div>
             <h4>An Emotional, Beautiful Journey into the Unknown</h4>
 
             <p>Interstellar is truly a sci-fi epic like no other. To compare said film to '2001: A Space Odyssey' isn't just
@@ -327,7 +325,7 @@
                 Nolan takes us on in the film, but needless to say, it's tear-jerking and emotional throughout.
             </p>
         </div>
-        <div class="review">
+        <div>
             <h4>Nolan's masterpiece, one of the best sci-fi movie</h4>
             <p>
                 I have been a cinema lover for years, read a lot of reviews on IMDb and everywhere, and never found the right movie to write

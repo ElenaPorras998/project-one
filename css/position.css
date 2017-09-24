@@ -11,26 +11,37 @@ html {
 h1 {
     text-align: center;
     margin: -1em;
+    margin-right: -3em;
     padding-top: 2.5em;
 }
 
-.row{
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-between;
-    margin-right: 5em;
-}
-
-div#intton{
-    margin-top: 5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.rating {
+    margin-left: 2em;
 }
 
 p.phrase{
+    display: none;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 1em;
+}
+
+#first{
+    display: flex;
+    margin-left: 1em;
+}
+
+.releases {
+    padding-left: 1em;
+    height: 5em;
+    overflow-y: scroll;
+    width: 115%;    
+}
+
+.awards{
+    padding-left: 1em;
+    height: 5em;
+    overflow-y: scroll;
+    width: 115%;    
 }
 
 div#info{
@@ -38,39 +49,40 @@ div#info{
     margin-left: 2em;  
     display: flex;  
     justify-content: space-between;
-}
-
-/* div#rating{
-    
-} */
-
-.data{
-    margin-left: 5em;
 } 
 
 .profile {
-    width: 10em;
-    height: 12em;
+    margin-right: 2em;
+    height: 10em;
 }
 
 .poster{
-    margin-top: -5em;
-    width: 15em;
+    margin-top: 2em;
+    width: 10em;
+    align-self: left;
 }
 
-div#plot {
-    margin-left: 5em;
-    max-width: 80%;
+.video {
+    width: 370px; 
+    height: 250px;
+}
+
+.plot {
+    margin-left: 1em;
+    margin-top: 1em;    
     text-align: justify;
 }
 
-/* div#releases {
-    display: flex;
-
-} */
-
 div.dir {
-    margin-top: 3em;
+    margin-top: 1em;
+    margin-left: 1em;    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cast{
+    margin-top: 2em;  
 }
 
 div#cast {
@@ -80,36 +92,89 @@ div#cast {
     text-align: center;
     padding-top: 2em;
     padding-left: 1em;
+    height: 22em;
 }
 
-.cast {
-    max-width: 80%;
-    margin-top: 3em;
+
+@media only screen and (min-width: 400px) {
+    .awards{
+        width: 100%;
+    }
+    .releases{
+        width: 100%;
+    }
 }
 
-div.char {
-    margin-right: 2em;
+@media only screen and (min-width: 500px) {
+    p.phrase{
+        display: block;
+    }
+    .middle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .main{
+        margin-right: 1em;
+    }
+    
+    .awards{
+        height: 22em;
+    }
+    .releases{
+        height: 22em;
+    }
+    .video {
+        width: 500px; 
+        height: 350px;
+    }
 }
 
-.reviews{
-    margin-top: 2em;
-    margin-left: -2em;
-    padding-left: 5em; 
-    padding-top: 3em;
-    padding-bottom: 3em;       
+@media only screen and (min-width: 800px) {
+    .poster{
+        margin-top: -5em;
+        width: 15em;
+    }
+    .rating{
+        float: right;
+    }
+    p.phrase{
+        margin-top: 3em;
+    }
+    .info{
+        width: 40em;
+    }
+    .side{
+        margin-top: 1em;
+    }
+    .video {
+        width: 650px; 
+        height: 450px;
+    }
+    .reviews{
+        margin-left: 3em;
+        margin-right: 3em;        
+        width: 100%;
+    }
+    .cast{
+        margin-left: 3em;
+        margin-right: 3em;        
+        width: 100%;        
+    }
+    #first{
+        margin-left: 3em;        
+    }
+    .middle{
+        margin-left: 3em;        
+    }
 }
 
-div.review {
-    max-width: 80%;
-    text-align: justify;
-}
-
-div#awards{
-    margin-top: 2em;
-    overflow-y: scroll;
-    height: 20em;
-}
-
-section#middle{
-    margin-top: 3em;
-}
+@media only screen and (min-width: 1500px) {
+    .middle{
+        margin-left: 3em;
+    }
+    .dir{
+        margin-top: 3em;
+    }
+} 
